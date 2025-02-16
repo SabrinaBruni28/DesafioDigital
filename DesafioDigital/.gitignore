@@ -151,3 +151,5 @@ Thumbs.db
 
 ## Special cases:
 **/resource-config.json
+
+lwjgl3/build/resources/main/gameConfig/banco.json
