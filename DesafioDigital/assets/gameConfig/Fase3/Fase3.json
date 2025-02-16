@@ -1,0 +1,10 @@
+{
+    "explicacao": "ESTA FASE TEM 3 NÍVEIS DE DIFICULDADE. EM CADA NÍVEL, VOCÊ VAI VER UMA PERGUNTA E PRECISA ESCOLHER E TOCAR NO APARELHO QUE A RESPONDE MELHOR. QUANDO ACERTAR, VAI APARECER  PORQUE ESSA É A RESPOSTA CORRETA. DEPOIS DE ACERTAR, VOCÊ PODE TOCAR NAS OUTRAS CARTAS PARA VER PORQUE AS OUTRAS RESPOSTAS SÃO ERRADAS.",
+    "tipoFase": "contexto",
+    "imagemMascote":  "Mascote/mascoteFase1.png",
+    "row": 2, "col": 2,
+    "bolderColor": false,
+    "marginX": 1200, "marginY": 130,
+    "spacingX": 50, "spacingY": 90,
+    "qntNivel": 4
+}

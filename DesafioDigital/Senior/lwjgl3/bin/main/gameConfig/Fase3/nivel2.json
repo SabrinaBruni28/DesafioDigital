@@ -1,0 +1,42 @@
+{
+  "pontuacaoInicial": 80,
+  "tempoMinimo": 300,
+  "tempoMaximo": 420,
+  "bonusTempo": 25,
+  "penalidadeTempo": -25,
+  "erroMaximo": 3,
+  "penalidadeErro": -15,
+  "idResposta": 1,
+
+  "cenario": {
+      "imagemCenario": "Cenarios/cenario2.png",
+      "pergunta": "RICARDO QUER ASSISTIR A UM FILME COM TODA A SUA FAMÍLIA NA SALA DE CASA. ELE PRECISA DE UMA TELA BEM GRANDE PARA QUE TODOS POSSAM VER O FILME. QUAL É O MELHOR APARELHO PARA ISSO?"
+  },
+
+  "opcoes": [
+    {
+      "nome": "SMART TV",
+      "id": 1,
+      "imagemDispositivo": "Dispositivos/Parte1/smartTV2.png",
+      "descricao": "A SMART TV TEM UMA TELA GRANDE FEITA PARA ASSISTIR FILMES, PROGRAMAS E SÉRIES. É PERFEITA PARA A SALA DE CASA, POIS TODA A FAMÍLIA CONSEGUE VER O FILME JUNTO, CONFORTAVELMENTE."
+    },
+    {
+      "nome": "TABLET",
+      "id": 2,
+      "imagemDispositivo": "Dispositivos/Parte2/tablet.png",
+      "descricao": "O TABLET É MENOR E FEITO PARA SER USADO INDIVIDUALMENTE OU POR POUCAS PESSOAS. A TELA DELE É GRANDE, MAS NÃO O BASTANTE PARA TODA A FAMÍLIA."
+    },
+    {
+      "nome": "MULTIMÍDIA DE CARRO",
+      "id": 3,
+      "imagemDispositivo": "Dispositivos/Parte3/multimidiaDeCarro2.png",
+      "descricao": "A MULTIMÍDIA DE CARRO FICA NO PAINEL DO CARRO E TEM UMA TELA PEQUENA, FEITA PARA USAR DURANTE VIAGENS. NÃO É UMA BOA ESCOLHA PARA ASSISTIR A UM FILME NA SALA DE CASA, COM TODA A FAMÍLIA."
+    },
+    {
+      "nome": "SMARTPHONE",
+      "id": 4,
+      "imagemDispositivo": "Dispositivos/Parte1/smartphone2.png",
+      "descricao": "O SMARTPHONE TEM UMA TELA AINDA MENOR QUE A DO TABLET. É ÓTIMO PARA ASSISTIR A VÍDEOS SOZINHO, MAS NÃO É UMA BOA OPÇÃO PARA UMA FAMÍLIA INTEIRA VER UM FILME JUNTOS NA SALA DE CASA."
+    }
+  ]
+}

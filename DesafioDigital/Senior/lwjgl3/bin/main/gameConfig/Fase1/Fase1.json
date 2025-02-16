@@ -1,0 +1,13 @@
+{
+    "explicacao": "ESTA FASE TEM 3 NÍVEIS DE DIFICULDADE. EM CADA NÍVEL, VOCÊ PRECISA ENCONTRAR E TOCAR EM 2 APARELHOS IGUAIS. QUANDO ACERTAR, VAI APARECER O NOME E A EXPLICAÇÃO DO APARELHO. CONTINUE ATÉ ENCONTRAR TODOS OS APARELHOS IGUAIS!",
+    "tipoFase": "cartas",
+    "imagemMascote": "Mascote/mascoteFase1.png",
+    "bolderColor": false,
+    "row": 2,
+    "col": 6,
+    "marginX": 70,
+    "marginY": 150,
+    "spacingX": 20,
+    "spacingY": 90,
+    "qntNivel": 3
+}
