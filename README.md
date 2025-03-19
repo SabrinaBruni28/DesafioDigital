@@ -1,14 +1,13 @@
-# MemoriaGame
+# Gerência de Configuração e Mudança
+Esta branch é dedicada ao armazenamento e à organização dos artefatos computacionais do projeto. Aqui você encontrará todos os documentos essenciais para o gerenciamento e desenvolvimento do projeto, como atas de reuniões, protótipos do design do jogo, documentos de processos, e outros recursos relacionados. O objetivo desta branch é centralizar e facilitar o acesso às informações fundamentais para a equipe, garantindo que todas as mudanças sejam devidamente rastreadas e gerenciadas
 
-**Autor(a):** [Sabrina Bruni](https://github.com/SabrinaBruni28)
+Arte das telas: 
+https://www.figma.com/design/kVPbNbR5G4yfM5UpbJbWdq/Protótipo-das-Telas-do-Caso-de-Uso-Definido?node-id=2083-2&t=jC7NBGrFIjKzCXc2-1
 
-Essa branch contém toda a Prova de Conceito, com o documento e código.
+Docs principal do projeto:
+https://docs.google.com/document/d/1T5HS03EqxbjlUtVbyJ29leH5sWJfyohNGZ3j1RM8r5o/edit?usp=drivesdk
 
-Jogo da Memória feito com o [libGDX](https://libgdx.com/) em [Java](https://docs.oracle.com/en/java/) conectado a um banco de Dados [MySQL](https://dev.mysql.com/doc/) hospedado na [Aiven](https://aiven.io/docs/).
+**Observação: Se for necessário fazer modificações nos documentos dos artefatos (como alteração dos requisitos, casos de uso e classe) ou criação de novos protótipos de tela (design de jogo), será necessário criar outra branch (git checkout -b) com o arquivo atualizado e solicitar uma pull request para essa branch detalhando os motivos das modificações realizadas.
 
-Executável do Jogo da Memoria: [JogoMemoria](JogoMemoria/lwjgl3/build/libs/MemoriaGame-1.0.0.jar)
-
-* Para executar no Linux basta dar dois cliques no arquivo.
-* Para executar no Windows basta rodar o comando: `java -jar MemoriaGame-1.0.0.jar` na pasta onde o arquivo foi salvo.
-
-**Obs: Necessário ter o java instalado.**
+Documento de Gerência de Configuração (Google Docs):
+https://docs.google.com/document/d/1T34xTeb1SKsGJnRqXEorRYNHaz07bp77c1SF1gWw8rs/edit?usp=sharing

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-11-03" view-index="0" gantt-divider-location="361" resource-divider-location="344" version="3.3.3312" locale="pt_BR">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="172" order="0"/>
+        <field id="tpd4" name="Data inicial" width="63" order="1"/>
+        <field id="tpd5" name="Data final" width="63" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <field id="tpd8" name="Coordenador" width="47" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ff0000 #ff0033 #99ffff #e1e1e1]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="231" order="0"/>
+        <field id="1" name="Função" width="109" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="pt_br">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Year's Day]]></date>
+        <date year="" month="4" date="21" type="HOLIDAY"><![CDATA[Tiradentes Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labor Day]]></date>
+        <date year="" month="9" date="7" type="HOLIDAY"><![CDATA[Independence Day]]></date>
+        <date year="" month="10" date="12" type="HOLIDAY"><![CDATA[Lady of Aparecida]]></date>
+        <date year="" month="11" date="1" type="NEUTRAL"><![CDATA[All Saints Day]]></date>
+        <date year="" month="11" date="2" type="HOLIDAY"><![CDATA[All Souls Days]]></date>
+        <date year="" month="11" date="15" type="HOLIDAY"><![CDATA[Republic Day]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas]]></date>
+        <date year="2022" month="2" date="28" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2022" month="2" date="1" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2022" month="3" date="2" type="HOLIDAY"><![CDATA[Ash Wednesday]]></date>
+        <date year="2022" month="4" date="15" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2022" month="6" date="16" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2012" month="2" date="20" type="HOLIDAY"/>
+        <date year="2012" month="2" date="21" type="HOLIDAY"/>
+        <date year="2012" month="4" date="6" type="HOLIDAY"/>
+        <date year="2012" month="4" date="8" type="HOLIDAY"/>
+        <date year="2012" month="6" date="7" type="HOLIDAY"/>
+        <date year="2005" month="3" date="25" type="HOLIDAY"/>
+        <date year="2006" month="4" date="14" type="HOLIDAY"/>
+        <date year="2007" month="2" date="19" type="HOLIDAY"/>
+        <date year="2007" month="2" date="20" type="HOLIDAY"/>
+        <date year="2007" month="4" date="6" type="HOLIDAY"/>
+        <date year="2007" month="6" date="7" type="HOLIDAY"/>
+        <date year="2008" month="3" date="21" type="HOLIDAY"/>
+        <date year="2009" month="4" date="10" type="HOLIDAY"/>
+        <date year="2010" month="4" date="2" type="HOLIDAY"/>
+        <date year="2011" month="4" date="22" type="HOLIDAY"/>
+        <date year="2011" month="4" date="24" type="HOLIDAY"/>
+        <date year="2017" month="2" date="25" type="HOLIDAY"><![CDATA[Carnival]]></date>
+        <date year="2017" month="2" date="26" type="HOLIDAY"><![CDATA[Carnival]]></date>
+        <date year="2017" month="2" date="27" type="HOLIDAY"><![CDATA[Carnival]]></date>
+        <date year="2017" month="2" date="28" type="HOLIDAY"><![CDATA[Carnival]]></date>
+        <date year="2017" month="4" date="14" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2017" month="6" date="15" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2018" month="2" date="12" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2018" month="2" date="13" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2018" month="3" date="30" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2018" month="5" date="31" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2019" month="3" date="4" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2019" month="3" date="5" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2019" month="4" date="19" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2019" month="6" date="20" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2020" month="2" date="24" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2020" month="2" date="25" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2020" month="4" date="10" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2020" month="6" date="11" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+        <date year="2021" month="2" date="15" type="HOLIDAY"><![CDATA[Carnival Monday]]></date>
+        <date year="2021" month="2" date="16" type="HOLIDAY"><![CDATA[Carnival Tuesday]]></date>
+        <date year="2021" month="2" date="17" type="HOLIDAY"><![CDATA[Ash Wednesday]]></date>
+        <date year="2021" month="4" date="2" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2021" month="6" date="3" type="HOLIDAY"><![CDATA[Corpus Christi]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="161" uid="f4963b48434044279e4ffaf92eafa0e4" name="InícioSprint 00" meeting="true" start="2024-10-14" duration="0" complete="0" expand="true"/>
+        <task id="2" uid="407c7af2557749a0ac91ca61dc28290a" name="Sprint 00" color="#ff0000" shape="0,0,0,0,1,0,0,0,1,1,0,0,1,1,1,0" meeting="false" start="2024-10-14" duration="7" complete="100" priority="2" expand="false">
+            <task id="25" uid="6ee67380d8e742748941cc9a469c6c4b" name="Refinamento de Caso de Uso e Diagrama de Classe" meeting="false" start="2024-10-14" duration="5" complete="100" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" uid="15a737a020844687836c37014670bb4f" name="Avaliar o Refinamento" meeting="false" start="2024-10-19" duration="1" complete="100" expand="true"/>
+            <task id="27" uid="91bbb713751643ec9d1c52d02c34f290" name="Fazer Sprint Backlog (Sprint 01)" meeting="false" start="2024-10-14" duration="6" complete="100" expand="true">
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="28" uid="4ac820247cac4957b9c2ff852531fc30" name="Avaliar Sprint Backlog" meeting="false" start="2024-10-20" duration="1" complete="100" expand="true"/>
+            <task id="30" uid="81756e719b5f400ab153656ff7f6a159" name="Desenvolver Protótipo de Tela" meeting="false" start="2024-10-14" duration="4" complete="100" expand="true">
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="31" uid="ffb630f23dbc48d9920a0fadb5a67575" name="Avaliar Protótipo" meeting="false" start="2024-10-18" duration="1" complete="100" expand="true"/>
+            <task id="96" uid="62198c95d8684886bf0303c850bafc3e" name="Concluir EPF" meeting="false" start="2024-10-14" duration="6" complete="100" expand="true"/>
+            <task id="97" uid="61254626bd5046d4997f647a23134364" name="Desenvolver Treinamento Github" meeting="false" start="2024-10-14" duration="4" complete="100" expand="true"/>
+            <task id="98" uid="12d11f38e29047b083fb5997b502d8ac" name="Configurar Repositorio" meeting="false" start="2024-10-14" duration="4" complete="100" expand="true"/>
+            <task id="99" uid="802622663f914600a264df808e0fb82f" name="Desenvolver Prova de Conceito" meeting="false" start="2024-10-14" duration="6" complete="100" expand="true"/>
+            <task id="100" uid="ade1d2627a6a4a70a4f3b69bf600117a" name="Desenvolver Product Backlog" meeting="false" start="2024-10-14" duration="5" complete="100" expand="true"/>
+            <task id="101" uid="3aa955205bad479190c0b2123c78c411" name="Planejar o Cronograma" meeting="false" start="2024-10-14" duration="4" complete="100" expand="true"/>
+            <task id="102" uid="cb954a7fa18140ec961fc31eb4c97cd3" name="Desenvolver Padrões e Diretrizes" meeting="false" start="2024-10-14" duration="4" complete="100" expand="true"/>
+            <task id="103" uid="0a3c3ffa5c89465383cf9eff8fa4baa5" name="Desenvolver Plano de Garantia de Qualidade" meeting="false" start="2024-10-14" duration="4" complete="100" expand="true"/>
+            <task id="104" uid="e3a92cfd3c334473ad7b2241c8ce4e5a" name="Desenvolver Documentação de Utilização do Github" meeting="false" start="2024-10-14" duration="3" complete="100" expand="true"/>
+        </task>
+        <task id="162" uid="6e39f9e4d6b74a4181c2b8fe0dbb5635" name="TerminoSprint 00" meeting="true" start="2024-10-20" duration="0" complete="0" expand="true"/>
+        <task id="165" uid="98295456ed5d4e67b0b4d435df97d7e1" name="InícioSprint 01" color="#000000" meeting="true" start="2024-10-21" duration="0" complete="0" expand="true"/>
+        <task id="95" uid="232535d605234fa9ba82318f60516567" name="Sprint 01" color="#ff0000" meeting="false" start="2024-10-21" duration="13" complete="88" expand="false">
+            <task id="41" uid="85e9f6afe1a2475690354f6987330921" name="Definir Sprint Backlog (Sprint 02 )" color="#8cb6ce" meeting="false" start="2024-10-31" duration="2" complete="100" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+                <depend id="135" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="154" uid="a43cf6d3d245450689944e8b8c9a0609" name="Concluir Visão do Projeto" meeting="false" start="2024-10-21" duration="2" complete="100" expand="true"/>
+            <task id="153" uid="6dd1d0ed71ea4c97b13e6805f3846eec" name="Configurar e subir Ambiente" meeting="false" start="2024-10-21" duration="2" complete="100" expand="true"/>
+            <task id="42" uid="7bd21a5ca4054b53b296b00ee2588816" name="Avaliar Sprint Backlog ( Analista )" color="#8cb6ce" meeting="false" start="2024-11-03" duration="1" complete="100" expand="true">
+                <depend id="137" type="1" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="135" uid="e208d76b68ef4a68ae8a7bf28caac968" name="Avaliar Sprint Backlog ( Dev. Sênior )" meeting="false" start="2024-11-03" duration="1" complete="100" expand="true">
+                <depend id="137" type="1" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="43" uid="e5d68550d9c54e5db5c39681a925c628" name="Desenvolver Protótipo de Tela Login" color="#8cb6ce" meeting="false" start="2024-10-21" duration="3" complete="100" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="44" uid="500ef78d87fa44a4afd3803659e3bb03" name="Avaliar Protótipo" color="#8cb6ce" meeting="false" start="2024-10-24" duration="2" complete="100" expand="true"/>
+            <task id="137" uid="7a1a403a04e24682b5f10cb8bf48d476" name="Realizar WorkFlow da Sprint (02)" color="#ff0033" meeting="false" start="2024-11-03" duration="1" complete="100" expand="true"/>
+            <task id="155" uid="3f40ff39485b4d58a1957ed9a7645d74" name="Configurar API do banco de Dados" meeting="false" start="2024-10-21" duration="11" complete="80" expand="true"/>
+            <task id="156" uid="1c1f6eb22145439295be47f713d15763" name="Implementação da Validação de Nome" meeting="false" start="2024-10-21" duration="5" complete="100" expand="true"/>
+            <task id="157" uid="e46e2855b99840a1a821886024066f03" name="Criação da Tela Inicial" meeting="false" start="2024-10-21" duration="6" complete="100" expand="true"/>
+            <task id="159" uid="10d313c9f27249d3829a59a1e3a7fc57" name="Testes" meeting="false" start="2024-10-26" duration="7" complete="50" expand="true"/>
+            <task id="158" uid="39bf3fc816f449af9342c28f5595d978" name="Implementar a contagem de commits por desenvolvedor" meeting="false" start="2024-10-21" duration="3" complete="100" expand="true"/>
+            <task id="160" uid="6c5965cab477485980710ab1c89d53a3" name="Definir e Configurar Ambiente de Testes" meeting="false" start="2024-10-21" duration="4" complete="100" expand="true"/>
+        </task>
+        <task id="166" uid="d477f37926464775b60e84cdfa51f390" name="TerminoSprint 01" color="#000000" meeting="true" start="2024-11-03" duration="0" complete="0" expand="true"/>
+        <task id="167" uid="ed573ffa098c4147b93915117f4fc956" name="InícioSprint 02" color="#000000" meeting="true" start="2024-11-04" duration="0" complete="0" expand="true"/>
+        <task id="13" uid="31b90a035b9a4341b21491f0aa5ea8cd" name="Sprint 02" color="#ff0000" meeting="false" start="2024-11-04" duration="13" complete="0" expand="true">
+            <task id="105" uid="e47fc0991b3247a5b0fb83a6c34270c9" name="Definir Sprint Backlog (Sprint 03 )" color="#8cb6ce" meeting="false" start="2024-11-16" duration="2" complete="0" expand="true"/>
+            <task id="107" uid="66c1e187897942e28badee05959e78c1" name="Criar Protótipo da Tela de Explicação, Refinar Tela da Fase e Desenvolver 12 Dispositivos" color="#8cb6ce" meeting="false" start="2024-11-04" duration="5" complete="0" expand="true">
+                <depend id="108" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="108" uid="664ccc95208e42a09c23f64e7c0a4da5" name="Avaliar Protótipo" color="#8cb6ce" meeting="false" start="2024-11-09" duration="2" complete="0" expand="true"/>
+            <task id="109" uid="caad807919224754831986e611660b0a" name="Programar Reunião de Início da Sprint com os Juniores" color="#8cb6ce" meeting="false" start="2024-11-04" duration="1" complete="0" expand="true"/>
+            <task id="110" uid="4a0757ab42aa4938b08bd3378d7cdd37" name="Implementar Classes Aluno, Partida e Turma (Caso de Uso 02)" color="#8cb6ce" meeting="false" start="2024-11-04" duration="3" complete="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="111" uid="d16ae8649f734ce2b1abf4c4463157fc" name="Seleção da Melhor Implementação das Classes pelos Desenvolvedores Juniores" color="#8cb6ce" meeting="false" start="2024-11-07" duration="2" complete="0" expand="true">
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="113" uid="3dddd5710b494355be3310019b53a1da" name="Realizar Incremento com a Implementação Selecionada" color="#8cb6ce" meeting="false" start="2024-11-09" duration="2" complete="0" expand="true">
+                <depend id="114" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="114" uid="f28b8eb697f94f22a6a279a26d6e6ab0" name="Analisar Qualidade do Código da Sprint" color="#8cb6ce" meeting="false" start="2024-11-11" duration="3" complete="0" expand="true"/>
+            <task id="138" uid="5059e1e97dc945d6b20815b413fcbcdd" name="Realizar WorkFlow da Sprint (03)" color="#ff0033" meeting="false" start="2024-11-16" duration="2" complete="0" expand="true"/>
+            <task id="175" uid="744eb623f3194621888f6ea49779e0c5" name="Criar Tela da Fase 1" meeting="false" start="2024-11-04" duration="5" complete="0" expand="true">
+                <depend id="114" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="176" uid="c6640eb0c9304b2e9d8c66c68ca31597" name="Criar Tela de Explicação da Fase 1" meeting="false" start="2024-11-04" duration="5" complete="0" expand="true">
+                <depend id="114" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="177" uid="82b9b994123343d2a34f98fba1dc1ee9" name="Refinar Padrão de Projeto para Acesso ao Banco de Dados" meeting="false" start="2024-11-04" duration="5" complete="0" expand="true">
+                <depend id="114" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="168" uid="0c8979f4a8674a75bef6a7f3c5dc7941" name="TerminoSprint 02" color="#000000" meeting="true" start="2024-11-17" duration="0" complete="0" expand="true"/>
+        <task id="169" uid="20ce2bc33da74b989870bec01d701f88" name="InícioSprint 03" color="#000000" meeting="true" start="2024-11-18" duration="0" complete="0" expand="true"/>
+        <task id="14" uid="0349cb4cb5404ff0ac0c004a1501df44" name="Sprint 03" color="#ff0000" meeting="false" start="2024-11-18" duration="12" complete="0" expand="false">
+            <task id="115" uid="8442bcc8f7324f4fb1ab1ac8c4a86c25" name="Definir Sprint Backlog (Sprint 04 )" color="#8cb6ce" meeting="false" start="2024-11-18" duration="6" complete="0" expand="true">
+                <depend id="116" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="116" uid="acf67541db674bc88eb59228132fab1f" name="Avaliar Sprint Backlog" color="#8cb6ce" meeting="false" start="2024-11-24" duration="2" complete="0" expand="true"/>
+            <task id="117" uid="51e839e1e23841f79ce9f951a2ff28df" name="Desenvolver Protótipo de Tela" color="#8cb6ce" meeting="false" start="2024-11-18" duration="5" complete="0" expand="true">
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="118" uid="838e25b294034805add8301fa7129a32" name="Avaliar Protótipo" color="#8cb6ce" meeting="false" start="2024-11-23" duration="2" complete="0" expand="true"/>
+            <task id="119" uid="b89a1e1b09d54c2ab42c16c75685fb15" name="Apresentar Sprint Backlog para os Juniores" color="#8cb6ce" meeting="false" start="2024-11-18" duration="1" complete="0" expand="true"/>
+            <task id="120" uid="c23c3adbaeb947cebdbcf29fa83da8c6" name="Desenvolvimento das Classes, Metodos e Banco de Dados" color="#8cb6ce" meeting="false" start="2024-11-18" duration="3" complete="0" expand="true">
+                <depend id="121" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="121" uid="8cfbb7c723bf41048bb66acb7699432f" name="Escolher melhor classe" color="#8cb6ce" meeting="false" start="2024-11-21" duration="2" complete="0" expand="true">
+                <depend id="122" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="122" uid="e9a0de3e2db34638afcc750a515c3838" name="Avaliar codificação das classes e banco de dados" color="#8cb6ce" meeting="false" start="2024-11-23" duration="2" complete="0" expand="true">
+                <depend id="123" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="123" uid="e4e67d4f1f774032a367e2c9d5cbf587" name="Realizar o incremento" color="#8cb6ce" meeting="false" start="2024-11-25" duration="2" complete="0" expand="true">
+                <depend id="124" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="124" uid="bad2008f3416469c8c16fa15994cd7e7" name="Avaliar o incremento e realizar testes" color="#8cb6ce" meeting="false" start="2024-11-27" duration="3" complete="0" expand="true"/>
+            <task id="139" uid="5b0ce2f36db64fe4901574441b0659a4" name="Realizar WorkFlow da Sprint (04)" color="#ff0033" meeting="false" start="2024-11-18" duration="6" complete="0" expand="true"/>
+        </task>
+        <task id="170" uid="f5285e70d84c40009713b576d820da71" name="TerminoSprint 03" color="#000000" meeting="true" start="2024-12-01" duration="0" complete="0" expand="true"/>
+        <task id="171" uid="1336a7bd35dd44ef98473dd0059524a4" name="InícioSprint 04" color="#000000" meeting="true" start="2024-12-02" duration="0" complete="0" expand="true"/>
+        <task id="141" uid="4c34d0af05cf464c9a0566b5e64d594e" name="Sprint 04" color="#ff0000" meeting="false" start="2024-12-02" duration="12" complete="0" expand="false">
+            <task id="142" uid="24c81a3b93984cda922fe1ea188bda4d" name="Definir Sprint Backlog (Sprint 05 )" color="#8cb6ce" meeting="false" start="2024-12-02" duration="4" complete="0" expand="true">
+                <depend id="143" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="143" uid="45378342970246bf9633e69e6191206e" name="Avaliar Sprint Backlog" color="#8cb6ce" meeting="false" start="2024-12-06" duration="2" complete="0" expand="true"/>
+            <task id="144" uid="964c3934b72b431e83a1a590283bb83b" name="Desenvolver Protótipo de Tela" color="#8cb6ce" meeting="false" start="2024-12-02" duration="5" complete="0" expand="true">
+                <depend id="145" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="145" uid="d49d822e923f489b889f1957b07e1725" name="Avaliar Protótipo" color="#8cb6ce" meeting="false" start="2024-12-07" duration="2" complete="0" expand="true"/>
+            <task id="146" uid="d5ae43fda21344f1a493da57453960a6" name="Apresentar Sprint Backlog para os Juniores" color="#8cb6ce" meeting="false" start="2024-12-02" duration="1" complete="0" expand="true"/>
+            <task id="147" uid="578783653797435788392d91ee229aa5" name="CóDesenvolvimento das Classes, Metodos e Banco de Dados" color="#8cb6ce" meeting="false" start="2024-12-02" duration="3" complete="0" expand="true">
+                <depend id="148" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="148" uid="6630e72a8b414b7da433fb5e9c91dca5" name="Escolher melhor classe" color="#8cb6ce" meeting="false" start="2024-12-05" duration="2" complete="0" expand="true">
+                <depend id="149" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="149" uid="80476a621ba845faa58c7884aef0da4d" name="Avaliar codificação das classes e banco de dados" color="#8cb6ce" meeting="false" start="2024-12-07" duration="2" complete="0" expand="true">
+                <depend id="150" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="150" uid="c60f8b3c866d4fe2902274cbfec02eaf" name="Realizar o incremento" color="#8cb6ce" meeting="false" start="2024-12-09" duration="2" complete="0" expand="true">
+                <depend id="151" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="151" uid="c9ffd708cc0f464c9e2a2e579dd60ef2" name="Avaliar o incremento e realizar testes" color="#8cb6ce" meeting="false" start="2024-12-11" duration="3" complete="0" expand="true"/>
+            <task id="152" uid="005f231409934362b2cbd33a630dcaf8" name="Realizar WorkFlow da Sprint (05)" color="#ff0033" meeting="false" start="2024-12-02" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="172" uid="999236ca3f794a979a9db595bb284714" name="TerminoSprint 04" color="#000000" meeting="true" start="2024-12-15" duration="0" complete="0" expand="true"/>
+        <task id="173" uid="089c3ec2834242bdb11c6f03581a0ae0" name="InícioSprint 05" color="#000000" meeting="true" start="2024-12-16" duration="0" complete="0" expand="true"/>
+        <task id="15" uid="ef0e0508b66a433285c0523af6b3c4b1" name="Sprint 05" color="#ff0000" meeting="false" start="2024-12-16" duration="4" complete="0" expand="false">
+            <task id="136" uid="54412f613a5d4b03a9db54aae6612241" name="Realizar Refinamento e Finalização" meeting="false" start="2024-12-16" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="174" uid="34a84a036c6b44388e2633ae3d7400f3" name="TerminoSprint 05" color="#000000" meeting="true" start="2024-12-20" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Pedro " function="1" contacts="" phone=""/>
+        <resource id="1" name="Aymê " function="3" contacts="" phone=""/>
+        <resource id="2" name="Henrique " function="6" contacts="" phone=""/>
+        <resource id="3" name="Victor " function="4" contacts="" phone=""/>
+        <resource id="4" name="Matheus" function="5" contacts="" phone=""/>
+        <resource id="5" name="Breno" function="13" contacts="" phone=""/>
+        <resource id="6" name="Luiz" function="2" contacts="" phone=""/>
+        <resource id="7" name="Sabrina" function="2" contacts="" phone=""/>
+        <resource id="8" name="Dev. Junior" function="8" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="41" resource-id="0" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="105" resource-id="0" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="115" resource-id="0" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="25" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="100" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="135" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="109" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="111" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="119" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="121" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="123" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="136" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="142" resource-id="0" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="146" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="148" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="1" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="105" resource-id="1" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="115" resource-id="1" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="25" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="100" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="101" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="137" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="95" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="138" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="139" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="136" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="142" resource-id="1" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="152" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="141" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="154" resource-id="1" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="2" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="105" resource-id="2" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="115" resource-id="2" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="25" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="2" function="4" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="96" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="100" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="108" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="114" resource-id="2" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="118" resource-id="2" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="122" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="124" resource-id="2" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="136" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="142" resource-id="2" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="145" resource-id="2" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="149" resource-id="2" function="6" responsible="true" load="100.0"/>
+        <allocation task-id="151" resource-id="2" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="160" resource-id="2" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="159" resource-id="2" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="3" function="4" responsible="true" load="1.0"/>
+        <allocation task-id="26" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="28" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="102" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="103" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="44" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="108" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="114" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="118" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="122" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="124" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="136" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="143" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="145" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="149" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="151" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="160" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="159" resource-id="3" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="4" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="105" resource-id="4" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="115" resource-id="4" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="25" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="97" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="98" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="100" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="104" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="136" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="142" resource-id="4" function="12" responsible="true" load="1.0"/>
+        <allocation task-id="158" resource-id="4" function="5" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="5" function="13" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="5" function="13" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="5" function="13" responsible="true" load="100.0"/>
+        <allocation task-id="107" resource-id="5" function="13" responsible="true" load="100.0"/>
+        <allocation task-id="117" resource-id="5" function="13" responsible="true" load="100.0"/>
+        <allocation task-id="136" resource-id="5" function="13" responsible="true" load="100.0"/>
+        <allocation task-id="144" resource-id="5" function="13" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="135" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="111" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="121" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="123" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="148" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="153" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="155" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="156" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="177" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="99" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="135" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="111" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="121" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="123" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="136" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="148" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="150" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="153" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="155" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="156" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="157" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="175" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="176" resource-id="7" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="110" resource-id="8" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="120" resource-id="8" function="8" responsible="true" load="100.0"/>
+        <allocation task-id="147" resource-id="8" function="8" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous>
+        <previous-tasks name="Projeto">
+            <previous-task id="2" start="2024-10-14" duration="7" meeting="false" super="true"/>
+            <previous-task id="25" start="2024-10-14" duration="5" meeting="false" super="false"/>
+            <previous-task id="26" start="2024-10-19" duration="1" meeting="false" super="false"/>
+            <previous-task id="27" start="2024-10-14" duration="6" meeting="false" super="false"/>
+            <previous-task id="28" start="2024-10-20" duration="1" meeting="false" super="false"/>
+            <previous-task id="30" start="2024-10-14" duration="4" meeting="false" super="false"/>
+            <previous-task id="31" start="2024-10-18" duration="2" meeting="false" super="false"/>
+            <previous-task id="96" start="2024-10-14" duration="6" meeting="false" super="false"/>
+            <previous-task id="97" start="2024-10-14" duration="4" meeting="false" super="false"/>
+            <previous-task id="98" start="2024-10-14" duration="6" meeting="false" super="false"/>
+            <previous-task id="99" start="2024-10-14" duration="6" meeting="false" super="false"/>
+            <previous-task id="100" start="2024-10-14" duration="6" meeting="false" super="false"/>
+            <previous-task id="101" start="2024-10-14" duration="5" meeting="false" super="false"/>
+            <previous-task id="102" start="2024-10-14" duration="4" meeting="false" super="false"/>
+            <previous-task id="103" start="2024-10-14" duration="4" meeting="false" super="false"/>
+            <previous-task id="104" start="2024-10-14" duration="4" meeting="false" super="false"/>
+            <previous-task id="95" start="2024-10-21" duration="12" meeting="false" super="true"/>
+            <previous-task id="41" start="2024-10-21" duration="6" meeting="false" super="false"/>
+            <previous-task id="42" start="2024-10-27" duration="2" meeting="false" super="false"/>
+            <previous-task id="135" start="2024-10-27" duration="2" meeting="false" super="false"/>
+            <previous-task id="43" start="2024-10-21" duration="5" meeting="false" super="false"/>
+            <previous-task id="44" start="2024-10-26" duration="2" meeting="false" super="false"/>
+            <previous-task id="49" start="2024-10-21" duration="1" meeting="false" super="false"/>
+            <previous-task id="48" start="2024-10-21" duration="3" meeting="false" super="false"/>
+            <previous-task id="52" start="2024-10-24" duration="2" meeting="false" super="false"/>
+            <previous-task id="47" start="2024-10-26" duration="2" meeting="false" super="false"/>
+            <previous-task id="46" start="2024-10-28" duration="2" meeting="false" super="false"/>
+            <previous-task id="51" start="2024-10-30" duration="3" meeting="false" super="false"/>
+            <previous-task id="137" start="2024-10-21" duration="6" meeting="false" super="false"/>
+            <previous-task id="140" start="2024-10-21" duration="3" meeting="false" super="false"/>
+            <previous-task id="13" start="2024-11-04" duration="11" meeting="false" super="true"/>
+            <previous-task id="105" start="2024-11-04" duration="5" meeting="false" super="false"/>
+            <previous-task id="106" start="2024-11-09" duration="2" meeting="false" super="false"/>
+            <previous-task id="107" start="2024-11-04" duration="5" meeting="false" super="false"/>
+            <previous-task id="108" start="2024-11-09" duration="2" meeting="false" super="false"/>
+            <previous-task id="109" start="2024-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="110" start="2024-11-04" duration="3" meeting="false" super="false"/>
+            <previous-task id="111" start="2024-11-07" duration="2" meeting="false" super="false"/>
+            <previous-task id="112" start="2024-11-09" duration="1" meeting="false" super="false"/>
+            <previous-task id="113" start="2024-11-10" duration="2" meeting="false" super="false"/>
+            <previous-task id="114" start="2024-11-12" duration="3" meeting="false" super="false"/>
+            <previous-task id="138" start="2024-11-04" duration="6" meeting="false" super="false"/>
+            <previous-task id="14" start="2024-11-18" duration="12" meeting="false" super="true"/>
+            <previous-task id="115" start="2024-11-18" duration="6" meeting="false" super="false"/>
+            <previous-task id="116" start="2024-11-24" duration="2" meeting="false" super="false"/>
+            <previous-task id="117" start="2024-11-18" duration="5" meeting="false" super="false"/>
+            <previous-task id="118" start="2024-11-23" duration="2" meeting="false" super="false"/>
+            <previous-task id="119" start="2024-11-18" duration="1" meeting="false" super="false"/>
+            <previous-task id="120" start="2024-11-18" duration="3" meeting="false" super="false"/>
+            <previous-task id="121" start="2024-11-21" duration="2" meeting="false" super="false"/>
+            <previous-task id="122" start="2024-11-23" duration="2" meeting="false" super="false"/>
+            <previous-task id="123" start="2024-11-25" duration="2" meeting="false" super="false"/>
+            <previous-task id="124" start="2024-11-27" duration="3" meeting="false" super="false"/>
+            <previous-task id="139" start="2024-11-18" duration="6" meeting="false" super="false"/>
+            <previous-task id="141" start="2024-12-02" duration="12" meeting="false" super="true"/>
+            <previous-task id="142" start="2024-12-02" duration="4" meeting="false" super="false"/>
+            <previous-task id="143" start="2024-12-06" duration="2" meeting="false" super="false"/>
+            <previous-task id="144" start="2024-12-02" duration="5" meeting="false" super="false"/>
+            <previous-task id="145" start="2024-12-07" duration="2" meeting="false" super="false"/>
+            <previous-task id="146" start="2024-12-02" duration="1" meeting="false" super="false"/>
+            <previous-task id="147" start="2024-12-02" duration="3" meeting="false" super="false"/>
+            <previous-task id="148" start="2024-12-05" duration="2" meeting="false" super="false"/>
+            <previous-task id="149" start="2024-12-07" duration="2" meeting="false" super="false"/>
+            <previous-task id="150" start="2024-12-09" duration="2" meeting="false" super="false"/>
+            <previous-task id="151" start="2024-12-11" duration="3" meeting="false" super="false"/>
+            <previous-task id="152" start="2024-12-02" duration="5" meeting="false" super="false"/>
+            <previous-task id="15" start="2024-12-16" duration="4" meeting="false" super="true"/>
+            <previous-task id="136" start="2024-12-16" duration="4" meeting="false" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Scrum Master"/>
+        <role id="2" name="Desenvolvedor Sênior"/>
+        <role id="3" name="Líder de Projeto"/>
+        <role id="4" name="Analista de Qualidade"/>
+        <role id="5" name="Gerente de configuração"/>
+        <role id="6" name="Gerente de processo"/>
+        <role id="8" name="Desenvolvedor Júnior"/>
+        <role id="10" name="Product Owner"/>
+        <role id="11" name="Arquiteto"/>
+        <role id="12" name="Design de software"/>
+        <role id="13" name="Design de jogo"/>
+        <role id="14" name="Projetista de banco de dados"/>
+    </roles>
+</project>
