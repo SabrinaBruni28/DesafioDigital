@@ -1,41 +1,14 @@
-# DesafioDigital
+# MemoriaGame
 
-Executável para baixar: [Desafio Digital](./DesafioDigital/lwjgl3/build/libs/DesafioDigital-1.0.0.jar)
-* No Linux basta clicar duas vezes no arquivo.
-* No Windows necessário comando: "java -jar DesafioDigital-1.0.0.jar".
-* Para realmente compilar e executar novamente necessário comando "make desktop" na pasta Senior.
+**Autor(a):** [Sabrina Bruni](https://github.com/SabrinaBruni28)
 
-* Versão do libGDX: 1.12.1.16
-* Versão do Java: 17
+Essa branch contém toda a Prova de Conceito, com o documento e código.
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+Jogo da Memória feito com o [libGDX](https://libgdx.com/) em [Java](https://docs.oracle.com/en/java/) conectado a um banco de Dados [MySQL](https://dev.mysql.com/doc/) hospedado na [Aiven](https://aiven.io/docs/).
 
-This project was generated with a template including simple application launchers and an empty `ApplicationListener` implementation.
+Executável do Jogo da Memoria: [JogoMemoria](https://github.com/ProjetoIntegradorUFV2024/Equipe-2Ano/raw/refs/heads/ProvaDeConceito/ProvaDeConceito/JogoMemoria/lwjgl3/build/libs/MemoriaGame-1.0.0.jar)
 
-## Platforms
+* Para executar no Linux basta dar dois cliques no arquivo.
+* Para executar no Windows basta rodar o comando: `java -jar MemoriaGame-1.0.0.jar` na pasta onde o arquivo foi salvo.
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
-
-## Gradle
-
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
-
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
-
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+**Obs: Necessário ter o java instalado.**
