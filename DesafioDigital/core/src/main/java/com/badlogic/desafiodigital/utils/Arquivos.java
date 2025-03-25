@@ -10,6 +10,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonArray;
+import java.text.MessageFormat;
 import com.badlogic.gdx.Gdx;
 import com.google.gson.Gson;
 import java.util.ArrayList;
@@ -116,48 +117,10 @@ public abstract class Arquivos {
     }
 
     public static String arquivosFase(int fase) {
-        return switch (fase) {
-            case 1 -> "gameConfig/Fase1/Fase1.json";
-            case 2 -> "gameConfig/Fase2/Fase2.json";
-            case 3 -> "gameConfig/Fase3/Fase3.json";
-            default -> null;
-        };
+        return MessageFormat.format("gameConfig/Fase{0}/Fase{0}.json", fase);
     }
 
     public static String arquivosFaseNivel(int fase, int nivel) {
-        return switch (fase) {
-            case 1 -> arquivosFase1(nivel);
-            case 2 -> arquivosFase2(nivel);
-            case 3 -> arquivosFase3(nivel);
-            default -> null;
-        };
-    }
-
-    private static String arquivosFase1(int nivel) {
-        return switch (nivel) {
-            case 1 -> "gameConfig/Fase1/nivel1.json";
-            case 2 -> "gameConfig/Fase1/nivel2.json";
-            case 3 -> "gameConfig/Fase1/nivel3.json";
-            default -> null;
-        };
-    }
-
-    private static String arquivosFase2(int nivel) {
-        return switch (nivel) {
-            case 1 -> "gameConfig/Fase2/nivel1.json";
-            case 2 -> "gameConfig/Fase2/nivel2.json";
-            case 3 -> "gameConfig/Fase2/nivel3.json";
-            default -> null;
-        };
-    }
-
-    private static String arquivosFase3(int nivel) {
-        return switch (nivel) {
-            case 1 -> "gameConfig/Fase3/nivel1.json";
-            case 2 -> "gameConfig/Fase3/nivel2.json";
-            case 3 -> "gameConfig/Fase3/nivel3.json";
-            case 4 -> "gameConfig/Fase3/nivel4.json";
-            default -> null;
-        };
+        return MessageFormat.format("gameConfig/Fase{0}/nivel{1}.json", fase, nivel);
     }
 }
