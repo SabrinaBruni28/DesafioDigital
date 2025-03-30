@@ -72,8 +72,9 @@ subprojects {
     maven { url 'https://jitpack.io' }
   }
   dependencies {
-        implementation 'mysql:mysql-connector-java:8.0.33'
-    }
+    implementation 'mysql:mysql-connector-java:8.0.33'
+    implementation 'io.github.cdimascio:dotenv-java:3.2.0' // Exemplo com outra versão
+  }
 }
 
 eclipse.project.name = 'DesafioDigital' + '-parent'

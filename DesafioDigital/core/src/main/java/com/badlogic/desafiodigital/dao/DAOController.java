@@ -198,8 +198,6 @@ public class DAOController {
         daoTurma.setConnection(connection);
         daoPartida.setConnection(connection);
         daoNivelPartida.setConnection(connection);
-
-        System.out.println("Conexão com o banco realizada.");
     }
     
     private void disconnect() throws SQLException, Exception {
@@ -212,7 +210,6 @@ public class DAOController {
         // Encerra a conexão
         if(connection != null) {
             connection.close();
-            System.out.println("Conexão com o banco finalizada.");
         }
     }
 }
