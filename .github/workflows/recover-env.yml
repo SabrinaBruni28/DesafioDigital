@@ -1,7 +1,7 @@
-name: Recover .env File
+name: Recuperar .env
 
-on: 
-  workflow_dispatch # Permite rodar manualmente quando precisar
+on:
+  workflow_dispatch:  # Permite rodar manualmente
 
 jobs:
   recover-env:
@@ -17,5 +17,6 @@ jobs:
           echo "DATABASE_USER=${{ secrets.DATABASE_USER }}" >> .env
           echo "DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }}" >> .env
 
-      - name: Mostrar conteúdo do .env (Apenas para conferência)
-        run: cat .env
+      - name: Verificar se o arquivo .env foi criado
+        run: |
+          if test -f ".env"; then echo ".env foi criado com sucesso."; else echo "Erro ao criar .env"; fi
