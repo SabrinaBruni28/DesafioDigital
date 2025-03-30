@@ -19,7 +19,7 @@ jobs:
 
       - name: Verificar se o arquivo .env foi criado
         run: |
-          if test -f ".env"; then echo ".env foi criado com sucesso."; else echo "Erro ao criar .env"; fi
+          ls -l  # Mostra os arquivos no diretório atual
 
       - name: Fazer o upload do .env como artefato
         uses: actions/upload-artifact@v3
