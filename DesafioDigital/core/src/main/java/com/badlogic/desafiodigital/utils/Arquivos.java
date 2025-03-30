@@ -5,6 +5,7 @@ import com.badlogic.desafiodigital.models.NivelContexto;
 import com.badlogic.desafiodigital.models.NivelCarta;
 import com.badlogic.desafiodigital.models.Nivel;
 import com.badlogic.desafiodigital.models.Fase;
+import io.github.cdimascio.dotenv.Dotenv;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Color;
 import com.google.gson.JsonObject;
@@ -110,10 +111,30 @@ public abstract class Arquivos {
         // Parse o conteúdo para um JsonObject
         JsonObject jsonObject = JsonParser.parseString(content).getAsJsonObject();
     
-        // Agora, obtém o array de cores corretamente usando o JsonArray da Gson
+        // Obtém o atributo do JSON
         String atributoBanco = jsonObject.get(atributo).getAsString();
 
+        // Substitui as variáveis de ambiente, se existirem
+        atributoBanco = replaceEnvVariables(atributoBanco);
+
         return atributoBanco;
+    }
+
+    private static String replaceEnvVariables(String input) {
+        // Encontra todas as ocorrências de ${VARIAVEL} e substitui pelas variáveis de ambiente
+
+        String variavel = input.replace("${", "").replace("}", "");
+
+        FileHandle fileHandle = Gdx.files.internal("gameConfig/.env");
+
+        // Agora, você pode passar o conteúdo lido para o Dotenv
+        Dotenv dotenv = Dotenv.configure()
+                              .directory(fileHandle.path())
+                              .load(); // Passa o conteúdo manualmente
+
+        String result = dotenv.get(variavel);
+
+        return result;
     }
 
     public static String arquivosFase(int fase) {

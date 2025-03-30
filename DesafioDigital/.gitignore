@@ -19,6 +19,8 @@
 /core/build/libs/
 /.gradle/file-system.probe
 *assets.txt
+/assets/gameConfig/.env
+lwjgl3/build/resources/
 
 ## Java:
 *.war
