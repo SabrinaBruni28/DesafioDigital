@@ -1,10 +1,14 @@
-make desktop, jar, sincronizar:
+run:
+	./gradlew lwjgl3:run --stacktrace
 
-desktop:
-	./gradlew lwjgl3:run --warning-mode all
+clean:
+	./gradlew clean
 
 jar:
 	./gradlew lwjgl3:dist
 
-sincronizar:
-	./gradlew clean build
+web:
+	./gradlew html:dist
+
+webRun:
+	cd html/build/dist/ && python3 -m http.server
