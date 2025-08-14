@@ -12,3 +12,12 @@ web:
 
 webRun:
 	cd html/build/dist/ && python3 -m http.server
+
+androidDebug:
+	./gradlew android:assembleDebug
+
+androidRelease:
+	./gradlew android:assembleRelease
+
+ios:
+	./gradlew ios:createIPA
